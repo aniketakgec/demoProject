@@ -12,7 +12,7 @@ class Program
    Program()
    {
        data=new ArrayList<Integer>();
-       sortAlgo="BubbleSort";
+       sortAlgo="Selectionsort";
    }
    
    public void InsertValue(int d)
