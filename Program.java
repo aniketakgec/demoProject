@@ -6,24 +6,19 @@ import java.util.List;
 class Program
 {
    private ArrayList<Integer> data;
-   private String sortAlgo;
-   
+ 
 
    Program()
    {
        data=new ArrayList<Integer>();
-       sortAlgo="BubbleSort";
+      
    }
    
    public void InsertValue(int d)
    {
        data.add(d);
    }
-   public void setSortAlgo(String sortAlgo)
-   {
    
-       this.sortAlgo=sortAlgo;
-   }
 
    public List<Integer> getSortedList()
    {
@@ -36,7 +31,6 @@ class Program
     public static void main(String[] args) {
         
         Program p=new Program();
-        p.setSortAlgo("mergerSort");
         p.InsertValue(5);
         p.InsertValue(2);
         p.InsertValue(4);
