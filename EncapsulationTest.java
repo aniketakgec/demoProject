@@ -6,7 +6,7 @@ class Student
     private int stdId;  
     
     
-       
+    // getters
     public String getStdName()
     {
           
@@ -22,6 +22,8 @@ class Student
      return stdId;       
     } 
         
+
+    //setters
     public void setStdName(String name)
     {             
       if(name.equals(""))
